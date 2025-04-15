@@ -1,40 +1,40 @@
 # NGS Equimolar Pooling Calculator
 
-A web-based tool for calculating equimolar pooling volumes for Next-Generation Sequencing (NGS) library preparation.
+A web-based tool for calculating equimolar pooling volumes from complex sub-pools for Next-Generation Sequencing (NGS).
 
 ## About
 
-This calculator helps researchers determine the correct volumes to take from each pool when combining multiple NGS libraries for sequencing. It ensures that each individual sample contributes an equal number of molecules to the final sequencing run, resulting in more balanced coverage.
+This calculator helps researchers determine the correct volumes to take from each pool when combining multiple complex sub-pools of NGS libraries for sequencing. It ensures that each individual sample contributes an equal number of molecules to the final sequencing run, resulting in more balanced coverage.
 
 ## Features
 
 - Calculate equimolar pooling volumes for any number of input pools
-- Support for both calculated and measured concentrations
+- Support for both calculated (estimated / target) and measured concentrations
 - Option to maximize the usage of original pools
 - Adjustable final volume
 - Real-time results with detailed metrics
 - Verification of equimolarity across samples
 
-## Live Demo
+## Live Calculator
 
 The calculator is available at: https://bwprice.github.io/ngs-equimolar-pooling-calculator/
 
 ## Usage
 
 1. Enter information for each input pool:
-   - Molarity that each sample was normalized to (nM)
+   - Molarity that each sample was normalized to in the sub-pool - i.e. the target molarity when pooling (nM)
    - Total pool volume (μl)
    - Number of samples in the pool
-   - (Optional) Measured concentration from lab quantification
+   - (Optional) Measured concentration of each sub-pool from lab quantification
 
 2. Choose whether to:
    - Use measured concentrations (if available from Qubit, Bioanalyzer, qPCR, etc.)
    - Maximize usage of original pools
-   - Set a specific final volume
+   - Set a specific final pool volume
 
 3. The calculator will automatically determine:
-   - How much volume to take from each pool
-   - The percentage of each pool that will be used
+   - How much volume to take from each sub-pool
+   - The percentage of each sub-pool that will be used
    - The final nM contribution per sample
    - Total samples in the final pool
 
