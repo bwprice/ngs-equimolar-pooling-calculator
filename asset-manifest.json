@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ngs-equimolar-pooling-calculator/static/css/main.8fcb63e6.css",
+    "main.js": "/ngs-equimolar-pooling-calculator/static/js/main.1fa27619.js",
+    "index.html": "/ngs-equimolar-pooling-calculator/index.html",
+    "main.8fcb63e6.css.map": "/ngs-equimolar-pooling-calculator/static/css/main.8fcb63e6.css.map",
+    "main.1fa27619.js.map": "/ngs-equimolar-pooling-calculator/static/js/main.1fa27619.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fcb63e6.css",
+    "static/js/main.1fa27619.js"
+  ]
+}
