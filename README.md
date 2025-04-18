@@ -79,6 +79,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you use this tool in your research, please cite:
 
 ```
-Ben Price, NGS Equimolar Pooling Calculator, GitHub Repository, 2025, 
+Ben Price (2025) NGS Equimolar Pooling Calculator, GitHub Repository, 
 Available at: https://github.com/bwprice/ngs-equimolar-pooling-calculator
 ```
